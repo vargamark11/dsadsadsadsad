@@ -1,8 +1,31 @@
-node_modules/
+# Roblox build output
+*.rbxl
+*.rbxlx
 build/
 dist/
-coverage/
-.DS_Store
+
+# Dependencies & Package Managers
+node_modules/
+package-lock.json
+
+# Temporary files & swap
+*.tmp
+*.temp
+*.swp
+*.bak
 *.log
+coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor cache
+.vscode/
+.idea/
+.luau-lsp/
+
+# Environment Variables
 .env*
 !.env.example

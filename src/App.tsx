@@ -606,28 +606,32 @@ export default function App() {
                 </h3>
                 <div className="space-y-2 font-mono text-xs text-slate-300">
                   <div className="p-2 rounded bg-slate-950/70 border border-slate-800/80">
-                    <span className="text-purple-400">ReplicatedStorage</span>.AlienNightfall:
+                    <span className="text-purple-400">game.ReplicatedStorage</span>:
                     <div className="pl-4 text-slate-400">
-                      <div>├── Shared/ (<span className="text-slate-500">src/shared</span>)</div>
-                      <div>└── Config/ (<span className="text-slate-500">config</span>)</div>
+                      <div>├── Shared/ (<span className="text-slate-500">src/ReplicatedStorage/Shared</span>: Types, Constants, Utilities, NetworkRemotes)</div>
+                      <div>├── Config/ (<span className="text-slate-500">src/ReplicatedStorage/Config</span>: PlayerConfig, WorldConfig, InteractionConfig)</div>
+                      <div>└── Remotes/ (<span className="text-slate-500">src/ReplicatedStorage/Remotes</span>: 8 Folders & Remotes)</div>
                     </div>
                   </div>
                   <div className="p-2 rounded bg-slate-950/70 border border-slate-800/80">
-                    <span className="text-emerald-400">ServerScriptService</span>.AlienNightfall:
+                    <span className="text-emerald-400">game.ServerScriptService</span>:
                     <div className="pl-4 text-slate-400">
-                      <div>└── Server/ (<span className="text-slate-500">src/server</span>)</div>
+                      <div>├── ServerMain (<span className="text-slate-500">src/ServerScriptService/ServerMain.server.luau</span>)</div>
+                      <div>└── Services/ (<span className="text-slate-500">src/ServerScriptService/Services</span>: PlayerService, CharacterService, ZoneService, InteractionService)</div>
                     </div>
                   </div>
                   <div className="p-2 rounded bg-slate-950/70 border border-slate-800/80">
-                    <span className="text-cyan-400">StarterPlayer</span>.StarterPlayerScripts.AlienNightfall:
+                    <span className="text-cyan-400">game.StarterPlayer.StarterPlayerScripts</span>:
                     <div className="pl-4 text-slate-400">
-                      <div>└── Client/ (<span className="text-slate-500">src/client</span>)</div>
+                      <div>├── ClientMain (<span className="text-slate-500">src/StarterPlayer/StarterPlayerScripts/ClientMain.client.luau</span>)</div>
+                      <div>└── Controllers/ (<span className="text-slate-500">src/StarterPlayer/StarterPlayerScripts/Controllers</span>: PlayerController, InputController, InteractionController, UIController)</div>
                     </div>
                   </div>
                   <div className="p-2 rounded bg-slate-950/70 border border-slate-800/80">
-                    <span className="text-amber-400">ServerStorage</span>.AlienNightfall:
+                    <span className="text-amber-400">game.Workspace</span>:
                     <div className="pl-4 text-slate-400">
-                      <div>└── Tests/ (<span className="text-slate-500">tests</span>)</div>
+                      <div>└── World/ (<span className="text-slate-500">src/Workspace/World</span>)</div>
+                      <div className="pl-4 text-slate-500">├── Zones, Landmarks, Transitions, SpawnPoints, MissionLocations, EncounterZones, ExtractionZones</div>
                     </div>
                   </div>
                 </div>

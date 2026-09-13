@@ -4,45 +4,22 @@
     "$className": "DataModel",
     "ReplicatedStorage": {
       "$className": "ReplicatedStorage",
-      "AlienNightfall": {
-        "$className": "Folder",
-        "Shared": {
-          "$path": "src/shared"
-        },
-        "Config": {
-          "$path": "config"
-        }
-      }
+      "$path": "src/ReplicatedStorage"
     },
     "ServerScriptService": {
       "$className": "ServerScriptService",
-      "AlienNightfall": {
-        "$className": "Folder",
-        "Server": {
-          "$path": "src/server"
-        }
-      }
+      "$path": "src/ServerScriptService"
     },
     "StarterPlayer": {
       "$className": "StarterPlayer",
       "StarterPlayerScripts": {
         "$className": "StarterPlayerScripts",
-        "AlienNightfall": {
-          "$className": "Folder",
-          "Client": {
-            "$path": "src/client"
-          }
-        }
+        "$path": "src/StarterPlayer/StarterPlayerScripts"
       }
     },
-    "ServerStorage": {
-      "$className": "ServerStorage",
-      "AlienNightfall": {
-        "$className": "Folder",
-        "Tests": {
-          "$path": "tests"
-        }
-      }
+    "Workspace": {
+      "$className": "Workspace",
+      "$path": "src/Workspace"
     }
   }
 }

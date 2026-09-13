@@ -1,0 +1,6 @@
+{
+  "name": "Alien: Nightfall - Roblox Studio Architecture",
+  "description": "Production-ready Rojo-compatible Luau multiplayer source-code foundation, modular services, Phase 3 server-authoritative interaction framework, configurations, remotes, test harnesses, and technical architecture for ALIEN: NIGHTFALL.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
